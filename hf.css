@@ -1,0 +1,71 @@
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.logo-container{
+    float: left;
+    padding: 0px 20px;
+    color: white;
+}
+
+.body{
+    vertical-align: middle;
+    padding:30px;
+}
+
+.header{
+    background-color: #101010;
+    overflow: hidden;
+    padding: 14px 16px;
+}
+
+.text{
+    text-align:left;
+    position:absolute;
+    left:650px;
+    top: 205px;
+    width: 200%;
+    font-size: 180%
+}
+
+.title{
+    text-align:center;
+    color: green;
+    font-size: 30px
+}
+
+.text1{
+    text-align:center;
+    display: inline;
+	background-color: #000000;
+	box-shadow: -1px 0 0 #000000, 1px 0 0 #000000;
+	padding: 1px 0;
+	color: #FFFFFF;
+	font-size: 35px;
+
+}
+
+.body_contacts{
+    background: url(img/chess.jpg);
+}
